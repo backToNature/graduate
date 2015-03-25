@@ -1,0 +1,53 @@
+/**
+ * Created by guohao on 14-12-1.
+ */
+// 顶部文字栏背景颜色
+@topColor: #f4831f;
+
+// 点赞按钮背景颜色
+@zan: #eb2929;
+
+// 点赞次数字体颜色
+@zanNum: #eb2929;
+
+// 商品栏目
+  // 宽度
+  @itemWidth: 156px;
+  // 高度
+  @itemHeight: 245px;
+  // 左右边距
+  @leftMargin: 2px;
+// 商品栏目
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #d52343;
+}
+ul {
+  list-style: none;
+}
+.container {
+  ul{
+    width: 320px;
+    margin: 0 auto;
+    &:after {
+      overflow: auto;
+      clear: both;
+      display: block;
+      content: "";
+    }
+    li{
+      width: @itemWidth;
+      height: @itemHeight;
+      background: #fff;
+      margin: 0 @leftMargin;
+      float: left;
+    }
+  }
+}
+
+
+

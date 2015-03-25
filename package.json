@@ -1,0 +1,29 @@
+{
+  "name": "graduate",
+  "version": "0.0.0",
+  "description": "my graduate design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/backToNature/graduate.git"
+  },
+  "author": "HaoGuo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/backToNature/graduate/issues"
+  },
+  "homepage": "https://github.com/backToNature/graduate",
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-util": "*",
+    "gulp-code": "*",
+    "gulp-less": "*",
+    "gulp-coffee": "*",
+    "gulp-concat": "*",
+    "gulp-if": "*",
+    "gulp-sprite-generator": "*"
+  }
+}
